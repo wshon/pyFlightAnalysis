@@ -5,7 +5,7 @@ from collections import OrderedDict
 from copy import deepcopy
 import pkg_resources
 from OpenGL.raw.GL.VERSION.GL_1_1 import GL_SHININESS
-from pyqtgraph.Qt import QtCore,QtGui,QtOpenGL
+from pyqtgraph.Qt import QtCore,QtGui,QtOpenGLWidgets as QtOpenGL
 import pyqtgraph as pg
 from objloader import WFObject
 import numpy as np
